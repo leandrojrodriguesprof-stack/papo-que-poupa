@@ -1,24 +1,81 @@
-# Papo Que Poupa
+# 💬 Papo Que Poupa
 
-Crie um aplicativo de finanças pessoais conversacional chamado Agente Financeiro. O aplicativo deve permitir que usuários registrem gastos em linguagem natural, classificar automaticamente as transações, acompanhar metas financeiras e receber recomendações personalizadas de economia. A experiência principal deve ser centrada em um chat intuitivo semelhante ao WhatsApp. O público-alvo são iniciantes em educação financeira que desejam organizar suas finanças sem planilhas complexas. Crie telas modernas, responsivas e amigáveis, incluindo onboarding, chat principal, resumo financeiro, metas financeiras, insights do agente e configurações. Priorize simplicidade, clareza visual e retenção do usuário.
+**Papo Que Poupa** é um aplicativo de finanças pessoais conversacional que transforma o controle financeiro em uma conversa simples e natural.
 
-This project was built with [Lovable](https://lovable.dev).
+Em vez de preencher planilhas complexas ou navegar por formulários extensos, o usuário registra receitas, despesas e metas financeiras diretamente por chat, como se estivesse conversando com um consultor financeiro pessoal.
 
-## Build with Lovable
+O aplicativo conta com um **Agente Financeiro Inteligente** capaz de interpretar linguagem natural, organizar transações automaticamente e oferecer recomendações personalizadas para ajudar o usuário a economizar e atingir seus objetivos financeiros.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/06c6f5c8-02f4-4432-9ab8-a03a6cb138c2).
+---
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+## 🚀 Sobre o Projeto
 
-## Development
+O principal objetivo do Papo Que Poupa é reduzir a barreira de entrada para pessoas que desejam organizar suas finanças, mas acabam desistindo por causa da complexidade dos aplicativos tradicionais.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+### Problema
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+Muitas pessoas abandonam o controle financeiro porque:
+
+- Precisam preencher muitos formulários.
+- Gastam tempo categorizando despesas manualmente.
+- Não recebem orientações personalizadas.
+- Acham planilhas e gráficos complexos demais.
+
+### Solução
+
+Criar uma experiência financeira baseada em conversa, permitindo que o usuário apenas diga coisas como:
+
+> "Gastei R$ 45 no almoço."
+
+ou
+
+> "Quero juntar R$ 5.000 para viajar."
+
+E deixar que o sistema cuide da organização e análise financeira.
+
+---
+
+## 🎯 Público-Alvo
+
+- Pessoas iniciando sua educação financeira.
+- Usuários que não gostam de planilhas.
+- Jovens adultos organizando suas finanças pela primeira vez.
+- Pessoas que buscam uma experiência simples e intuitiva para controlar gastos.
+
+---
+
+## ✨ Principais Funcionalidades
+
+### 💸 Registro de Gastos por Conversa
+
+Permite registrar movimentações utilizando linguagem natural.
+
+**Exemplos:**
+
+- "Gastei R$ 32 no Uber."
+- "Recebi meu salário de R$ 3.500."
+- "Paguei R$ 120 no supermercado."
+
+---
+
+### 🧠 Classificação Automática
+
+O sistema identifica automaticamente:
+
+- Tipo da transação
+- Valor
+- Categoria
+- Descrição
+
+Categorias iniciais:
+
+- Alimentação
+- Transporte
+- Moradia
+- Saúde
+- Educação
+- Lazer
+- Compras
+- Outros
+
+---
